@@ -19,10 +19,8 @@
           num=num/10;    
           }    
           if(sum==originalnum){
-            printf("The num is a Palindrom");
             return 1;
             }
-          printf("The num is notPalindrom");
           return 0;
         }
         int isArmstrong(int z){
@@ -34,10 +32,8 @@
             z=z/10;
           }
           if (oldz==sum){
-              printf("\n isArmstrong");
               return 1;
           }
-        printf("is notArmstrong");
         return 0;
 
         }

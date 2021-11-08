@@ -48,18 +48,11 @@ int isArmstrong(int number)
     }
     else
     {
-       // printf("is not Armstrong\n");
         return 0;
     }
 }
 
-//  int main(){
-//         int num = isArmstrong(9473);
-//         //printf("%d\n",lenghNumber(407));
-//         //int x = lenghNumber(372);
-//         //printf("Factorial of %d is %d", num, isPalindrome(num));
-//         return 0;
-//     }
+
 
 
 

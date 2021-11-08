@@ -50,5 +50,5 @@ advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
 
 .PHONY: clean all
 
-Clean:
+clean:
 		rm -f *.o *.a *.so mains maindloop maindrec looped recursive loops recursived
