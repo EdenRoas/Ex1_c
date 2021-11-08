@@ -1,6 +1,5 @@
 #include <stdio.h>
-    int isPrime(int x){ // check if primae
-        //scanf("enter %d to check is prime:",&x);
+    int isPrime(int x){ 
         for (int i = 2; i < x; i++)
         {
          if ((x%i)==0){

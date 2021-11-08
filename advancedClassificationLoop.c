@@ -9,7 +9,6 @@
         return count_digits;
       }
       int isPalindrome(int num){
-        int count=countDigit(num);
         int i,rev,sum=0;
         int originalnum=num;
         while(num>0)    
@@ -39,9 +38,4 @@
         }
 
       
-      int main(){
-        int num=isPalindrome(20102);
-        int z= isArmstrong(407);
-
-        return 0;
-      }
+   
