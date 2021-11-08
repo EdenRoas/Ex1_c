@@ -42,7 +42,6 @@ int isArmstrong(int number)
     sum = isArmstrongR(number, nDigits, sum);
     if(sum == number)
     {
-        // printf("is Armstrong\n");
         return 1;
 
     }
